@@ -7,17 +7,17 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     ], m)
     var astro = Math.random()
     if (astro < 0.34) {
-    star = 'stone'
-    } else if (star > 0.34 && star < 0.67) {
-    star = 'scissor'
+    astro = 'stone'
+    } else if (astro > 0.34 && astro < 0.67) {
+    astro = 'scissor'
     } else {
-    star = 'paper'
+    astro = 'paper'
     }
-    if (text == star) {
+    if (text == astro) {
     global.db.data.users[m.sender].exp += 500
     m.reply(`🔰 Draw!\n\n*👉🏻 You: ${text}\n👉🏻 The Bot: ${astro}\n🎁 Prize +500 XP*`)
     } else if (text == 'paper') {
-    if (star == 'stone') {
+    if (astro == 'stone') {
     global.db.data.users[m.sender].exp += 1000
     m.reply(`🥳 You win! 🎉\n\n*👉🏻 You: ${text}\n👉🏻 The Bot: ${astro}\n🎁 Prize +1000 XP*`)
     } else {
@@ -25,7 +25,7 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     m.reply(`☠️ You lose! ❌\n\n*👉🏻 You: ${text}\n👉🏻 The Bot: ${astro}\n❌ Prize -300 XP*`)
     }
     } else if (text == 'scissors') {
-    if (star == 'paper') {
+    if (astro == 'paper') {
     global.db.data.users[m.sender].exp += 1000
     m.reply(`🥳 You win! 🎉\n\n*👉🏻 You: ${text}\n👉🏻 The Bot: ${astro}\n🎁 Prize +1000 XP*`)
     } else {
@@ -33,7 +33,7 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     m.reply(`☠️ You lose! ❌\n\n*👉🏻 You: ${text}\n👉🏻 The Bot: ${astro}\n❌ Prize -300 XP*`)
     }
     } else if (text == 'scissors') {
-    if (star == 'paper') {
+    if (astro == 'paper') {
     global.db.data.users[m.sender].exp += 1000
     m.reply(`🥳 You win! 🎉\n\n*👉🏻 You: ${text}\n👉🏻 The Bot: ${astro}\n🎁 Prize +1000 XP*`)
     } else {
@@ -41,7 +41,7 @@ let handler = async (m, { conn, text, command, usedPrefix, args }) => {
     m.reply(`☠️ You lose! ❌\n\n*👉🏻 You: ${text}\n👉🏻 The Bot: ${astro}\n❌ Prize -300 XP*`)
     }
     } else if (text == 'paper') {
-    if (star == 'stone') {
+    if (astro == 'stone') {
     global.db.data.users[m.sender].exp += 1000
     m.reply(`🥳 You win! 🎉\n\n*👉🏻 You: ${text}\n👉🏻 The Bot: ${astro}\n🎁 Prize +1000 XP*`)
     } else {

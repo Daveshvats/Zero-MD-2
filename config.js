@@ -10,7 +10,9 @@ global.owner = [
   ['523326356169', '👑 Zero - Collaborator 2 👑', true],
 ] 
 global.suittag = ['52199'] 
-global.prems = ['51995'] 
+global.prems = ['917404854406',
+'919466558184',
+'523326356169',] 
 
 global.packname = '(☞ﾟ∀ﾟ)☞'
 global.author = '★Zero★'

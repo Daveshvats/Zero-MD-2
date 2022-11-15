@@ -34,7 +34,7 @@ conn.sendMessage(m.chat, { audio: mediax, mentions: users, mimetype: 'audio/mp4'
 var mediax = await quoted.download?.()
 conn.sendMessage(m.chat, {sticker: mediax, mentions: users}, { quoted: m })
 } else {
-await conn.relayMessage(m.chat, {extendedTextMessage:{text: `${masss}\n${htexts}\n`, ...{ contextInfo: { mentionedJid: users, externalAdReply: { thumbnail: image1, sourceUrl: 'https://github.com/Daveshvats/Zero-Bot' }}}}}, {})
+await conn.relayMessage(m.chat, {extendedTextMessage:{text: `${masss}\n${htexts}\n`, ...{ contextInfo: { mentionedJid: users, externalAdReply: { thumbnail: imagen1, sourceUrl: 'https://github.com/Daveshvats/Zero-Bot' }}}}}, {})
 }}}
 handler.command = /^(hidetag|notify|notify)$/i
 handler.group = true

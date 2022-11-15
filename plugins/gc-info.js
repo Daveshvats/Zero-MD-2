@@ -28,12 +28,12 @@ let handler = async (m, { conn, participants, groupMetadata }) => {
     -◉ DETECT: ${detect ? '✅' : '❌'}
     -◉ ANTILINK: ${antiLink ? '✅' : '❌'}
     -◉ ANTILINK2: ${antiLink2 ? '✅' : '❌'}
-    -◉ HORNY MODE: ${hornymode ? '✅' : '❌'}
+    -◉ HORNY MODE: ${modohorny ? '✅' : '❌'}
     -◉ AUTOSTICKER: ${autosticker ? '✅' : '❌'}
-    -◉ AUDIO: ${audio ? '✅' : '❌'}
+    -◉ AUDIO: ${audios ? '✅' : '❌'}
     -◉ ANTIVIEWONCE: ${antiviewonce ? '✅' : '❌'}
     -◉ ANTITOXIC: ${antiToxic ? '✅' : '❌'}
-    -◉ ANTI-LOCK: ${anti-Lock ? '✅' : '❌'}
+    -◉ ANTI-LOCK: ${antiTraba ? '✅' : '❌'}
     `.trim()
     conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
     }

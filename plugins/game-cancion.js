@@ -22,7 +22,7 @@ Prize: ${poin} XP
 REPLY TO THIS MESSAGE WITH ANSWERS!`.trim()
 conn.tebaklagu[id] = [
 await m.reply(caption),
-json, point,
+json, poin,
 setTimeout(() => {
 if (conn.tebaklagu[id]) conn.reply(m.chat, `Time's up!\nReply is ${json.judul}`, conn.tebaklagu[id][0])
 delete conn.tebaklagu[id]

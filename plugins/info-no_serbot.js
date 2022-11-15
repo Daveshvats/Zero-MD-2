@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     'previewType': 'pdf',
     'title': 'THE BEST Bot OF WHATsAPP',
     'body': wm,
-    'thumbnail': image1,}},
+    'thumbnail': imagen1,}},
     'caption': text1,
     'footer': wm,
     'buttons':[

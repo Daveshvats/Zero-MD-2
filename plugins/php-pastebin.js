@@ -2,7 +2,6 @@
 Made by https://github.com/balhisyhrl
 */
 import cp from 'child_process'
-import { promise } from 'util'
 let exec = promisify(cp.exec).bind(cp)
 let handler = async (m, { conn, text, usedPrefix, command }) => {
      let teks = m.quoted ? m.quoted.text : text

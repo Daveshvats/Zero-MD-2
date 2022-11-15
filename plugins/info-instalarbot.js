@@ -27,7 +27,7 @@ let text = `
 > npm update
 > npm install
 > npm start`
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: text, contextInfo: { externalAdReply: { title: 'Zero', body: null, thumbnail: image1, sourceUrl: 'https://github.com /Daveshvats/ Zero-Bot' }, mentionedJid: [m.sender] }}}, { quoted: m })
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: text, contextInfo: { externalAdReply: { title: 'Zero', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com /Daveshvats/ Zero-Bot' }, mentionedJid: [m.sender] }}}, { quoted: m })
 conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id, mentions: [m.sender] })
 }
 handler.command = /^(installbot)/i

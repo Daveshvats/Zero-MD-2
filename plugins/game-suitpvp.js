@@ -1,5 +1,5 @@
 let timeout = 60000
-let point = 500
+let poin = 500
 let poin_lose = -100
 let poin_bot = 200
 let handler = async (m, { conn, usedPrefix, text }) => {

@@ -566,7 +566,11 @@ export async function deleteUpdate(message) {
         console.error(e)
     }
 }
-
+global.owner = [
+    ['917404854406', '👑 Zero - Creator 👑', true],
+    ['919466558184', '👑 Zero - Collaborator 1 👑', true],
+    ['523326356169', '👑 Zero - Collaborator 2 👑', true],
+  ] 
 global.dfail = (type, m, conn) => {
     let msg = {
         rowner: '*[ ⚠️ ALERT ⚠️ ] THIS COMMAND MAY BE USED BY THE OWNER (𝙾𝚆𝙽𝙴𝚁) OF THE BOT*',

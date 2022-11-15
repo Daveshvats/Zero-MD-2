@@ -137,7 +137,7 @@ conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
   
-conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\ n*╟❧ @user*\n*╟❧ welcome/𝙰* \n*║*\n*╟❧ group description:*\n*╟❧* @desc\n*║*\n*╟❧ enjoy your stay!!*\n*╚══════════════*'
+conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ welcome* \n*║*\n*╟❧ group description:*\n*╟❧* @desc\n*║*\n*╟❧ enjoy your stay!!*\n*╚══════════════*'
 conn.bye = '*╔══════════════*\n*╟❧ @user*\n*╟❧ see you soon 👋🏻* \n*╚══════ ════════*'
 conn.spromote = '*@user is added to the admins group!!*'
 conn.sdemote = '*@user leaves the admins group !!*'
